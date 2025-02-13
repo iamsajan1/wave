@@ -1,15 +1,16 @@
 "use client";
 import { useEffect } from "react";
 import ButtonGradient from "./assets/svg/ButtonGradient";
-import Benifits from "./components/Benifits";
 import Button from "./components/Button";
-import Collabration from "./components/Collabration";
+import Collabration from "./components/TechStack";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import Services from "./components/Services";
-import Pricing from "./components/Pricing";
+import Services from "./components/ContactMe";
 import Roadmap from "./components/Roadmap";
 import Footer from "./components/Footer";
+import Projects from "./components/Projects";
+import TechStack from "./components/TechStack";
+import ContactMe from "./components/ContactMe";
 const App = () => {
   useEffect(() => {
     // Canvas for effects
@@ -165,11 +166,10 @@ const App = () => {
       <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
         <Header />
         <Hero />
-        <Benifits />
-        <Collabration />
-        <Services />
-        <Pricing />
+        <Projects />
+        <TechStack />
         <Roadmap />
+        <ContactMe />
         <Footer />
       </div>
       <ButtonGradient />

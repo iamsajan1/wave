@@ -1,12 +1,12 @@
 import { useLocation } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 
-import { brainwave } from "../assets";
 import { navigation } from "../constants";
 import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
 import { useState } from "react";
 import { HambugerMenu } from "./design/Header";
+import { Download } from "lucide-react";
 
 const Header = () => {
   const pathname = useLocation();
@@ -24,73 +24,73 @@ const Header = () => {
 
   const handleClick = () => {
     if (!openNavigation) return;
-
     enablePageScroll();
     setOpenNavigation(false);
   };
 
   return (
     <div
-      className={`fixed top-0 left-0 w-full z-50  border-b border-n-6 lg:bg-n-8/90 lg:backdrop-blur-sm ${
-        openNavigation ? "bg-n-8" : "bg-n-8/90 backdrop-blur-sm"
-      }`}
+      className={`fixed top-4 left-1/2 transform -translate-x-1/2 w-[90%] max-w-5xl z-50 rounded-full border border-n-6 bg-n-8/90 backdrop-blur-lg shadow-lg transition-all duration-300`}
     >
-      <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
-        <a className="block w-[12rem] xl:mr-8 flex items-center" href="#hero">
+      <div className="flex items-center justify-between px-6 py-3">
+        {/* Brand Logo */}
+        <a className="flex items-center" href="#hero">
           <img
-            src="/SantoshDp.jpeg"
+            src="logo.png"
             alt="Avatar"
-            className="w-10 h-10 rounded-full object-cover mr-4"
-            style={{ objectPosition: "90% 90%" }}
+            className="w-10 h-10 rounded-full object-cover mr-3"
+            style={{ objectPosition: "50% 50%" }}
           />
-          <h4 className="h4 mb-0 text-n-1 font-code font-bold">Sajan</h4>
+          <h4 className="text-n-1 font-code font-bold">Santosh Kumar</h4>
         </a>
 
-        <nav
-          className={`${
-            openNavigation ? "flex" : "hidden"
-          } fixed top-[5rem] left-0 right-0 bottom-0 bg-n-8 lg:static lg:flex lg:mx-auto lg:bg-transparent`}
-        >
-          <div className="relative z-2 flex flex-col items-center justify-center m-auto lg:flex-row">
-            {navigation.map((item) => (
-              <a
-                key={item.id}
-                href={item.url}
-                onClick={handleClick}
-                className={`block relative font-code text-2xl uppercase text-n-1 transition-colors hover:text-color-1 ${
-                  item.onlyMobile ? "lg:hidden" : ""
-                } px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-xs lg:font-semibold ${
-                  item.url === pathname.hash
-                    ? "z-2 lg:text-n-1"
-                    : "lg:text-n-1/50"
-                } lg:leading-5 lg:hover:text-n-1 xl:px-12`}
-              >
-                {item.title}
-              </a>
-            ))}
-          </div>
-
-          <HambugerMenu />
+        {/* Navigation Links */}
+        <nav className="hidden lg:flex items-center space-x-6">
+          {navigation.map((item) => (
+            <a
+              key={item.id}
+              href={item.url}
+              onClick={handleClick}
+              className={`relative font-code uppercase text-sm text-n-1/80 transition-colors hover:text-color-1 ${
+                item.url === pathname.hash ? "text-n-1 font-bold" : ""
+              }`}
+            >
+              {item.title}
+            </a>
+          ))}
         </nav>
 
-        <a
-          href="#signup"
-          className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
+        {/* Resume Download Button */}
+        <Button
+          className="hidden lg:flex flex-row items-center gap-2"
+          href="/resume.pdf"
+          download="Santosh_Resume.pdf"
         >
-          New account
-        </a>
-        <Button className="hidden lg:flex" href="#login">
-          Sign in
+          Resume
+          <Download className="h-4 w-4" />
         </Button>
 
-        <Button
-          className="ml-auto lg:hidden"
-          px="px-3"
-          onClick={toggleNavigation}
-        >
+        {/* Mobile Menu Button */}
+        <Button className="lg:hidden" px="px-3" onClick={toggleNavigation}>
           <MenuSvg openNavigation={openNavigation} />
         </Button>
       </div>
+
+      {/* Mobile Navigation */}
+      {openNavigation && (
+        <div className="absolute top-full left-0 w-full bg-n-8/95 rounded-b-2xl shadow-lg p-5 flex flex-col items-center space-y-4 transition-all duration-300">
+          {navigation.map((item) => (
+            <a
+              key={item.id}
+              href={item.url}
+              onClick={handleClick}
+              className="block text-white text-lg font-code uppercase hover:text-color-1"
+            >
+              {item.title}
+            </a>
+          ))}
+        </div>
+      )}
     </div>
   );
 };

@@ -10,7 +10,7 @@ export const RightCurve = () => {
 
 export const LeftCurve = () => {
   return (
-    <div className="hidden absolute top-1/2 right-full w-[32.625rem] -mt-1 mr-10 pointer-events-none xl:block">
+    <div className="hidden absolute top-[93%] right-full w-[32rem] -mt-2 mr-10 pointer-events-none xl:block ml-[34rem]">
       <img src={curve1} width={522} height={182} alt="Curve 1" />
     </div>
   );

@@ -6,37 +6,41 @@ const Notification = ({ className, title }) => {
     <div
       className={`${
         className || ""
-      } flex items-center p-4 pr-6 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl gap-5`}
+      } flex items-center p-4 pr-6 bg-gradient-to-r from-purple-700/40 to-purple-900/30 backdrop-blur-lg border border-gray-700 rounded-2xl gap-5 shadow-lg transition-transform duration-300 hover:scale-105`}
     >
-      <img
-        src={notification1}
-        width={62}
-        height={62}
-        alt="image"
-        className="rounded-xl"
-      />
+      {/* Notification Image */}
+      <div className="w-14 h-14 rounded-xl overflow-hidden border-2 border-purple-500 shadow-md">
+        <img
+          src={notification1}
+          alt="Notification"
+          className="w-full h-full object-cover"
+        />
+      </div>
 
-      <div className="flex-1">
-        <h6 className="mb-1 font-semibold text-base">{title}</h6>
+      {/* Notification Details */}
+      <div className="flex-1 flex flex-col justify-center">
+        <h6 className="mb-1 font-semibold text-lg text-white">{title}</h6>
+        <p className="text-sm text-gray-300 italic">
+          🚀 A new opportunity awaits you!
+        </p>
 
-        <div className="flex items-center justify-between">
+        {/* Avatar Icons & Time */}
+        <div className="flex items-center justify-between mt-2">
           <ul className="flex -m-0.5">
             {notificationImages.map((item, index) => (
               <li
                 key={index}
-                className="flex w-6 h-6 border-2 border-n-12 rounded-full overflow-hidden"
+                className="flex w-8 h-8 border-2 border-gray-800 rounded-full overflow-hidden shadow-sm"
               >
                 <img
                   src={item}
-                  className="w-full"
-                  width={20}
-                  height={20}
-                  alt={item}
+                  className="w-full h-full object-cover"
+                  alt={`User ${index + 1}`}
                 />
               </li>
             ))}
           </ul>
-          <div className="body-2 text-n-13">1m ago</div>
+          <div className="text-xs text-gray-400">⏳ 1m ago</div>
         </div>
       </div>
     </div>

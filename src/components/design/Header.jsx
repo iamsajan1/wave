@@ -34,7 +34,7 @@ export const HambugerMenu = () => {
       <div className="absolute inset-0 opacity-[.03]">
         <img
           className="w-full h-full object-cover"
-          src={background}
+          src="/SantoshDp.jpeg"
           width={688}
           height={953}
           alt="Background"
