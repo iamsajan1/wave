@@ -1,15 +1,7 @@
 import Section from "./Section";
 import Heading from "./Heading";
-import { service1, service2, service3, check } from "../assets";
-import { brainwaveServicesIcons } from "../constants";
-import {
-  PhotChatMessage,
-  Gradient,
-  VideoBar,
-  VideoChatMessage,
-} from "./design/Services";
+import { Gradient } from "./design/Services";
 
-import Generating from "./Generating";
 import { Phone, Mail, MessageCircle } from "lucide-react";
 
 const ContactMe = () => {

@@ -29,7 +29,7 @@ const Projects = () => {
                 <p className="body-2 mb-6 text-n-3">{item.text}</p>
                 <div className="flex items-center mt-auto">
                   <img
-                    src="/public/gitt.png"
+                    src="/gitt.png"
                     width={48}
                     height={48}
                     alt={item.title}

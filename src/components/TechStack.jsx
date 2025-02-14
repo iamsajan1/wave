@@ -71,7 +71,7 @@ const TechStack = () => {
               <div className="w-[6rem] aspect-square m-auto p-[0.2rem] bg-conic-gradient rounded-full">
                 <div className="flex items-center justify-center w-full h-full bg-n-8 rounded-full">
                   <img
-                    src="/public/logo.png"
+                    src="/logo.png"
                     width={100}
                     height={100}
                     alt="Tech Stack"
