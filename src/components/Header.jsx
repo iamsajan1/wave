@@ -78,17 +78,23 @@ const Header = () => {
 
       {/* Mobile Navigation */}
       {openNavigation && (
-        <div className="absolute top-full left-0 w-full bg-n-8/95 rounded-b-2xl shadow-lg p-5 flex flex-col items-center space-y-4 transition-all duration-300">
+        <div className="absolute top-full left-0 w-full bg-gray-900 rounded-b-2xl shadow-lg p-5 flex flex-col items-center space-y-4 transition-all duration-300 mt-2 ">
           {navigation.map((item) => (
-            <a
-              key={item.id}
-              href={item.url}
-              onClick={handleClick}
-              className="block text-white text-lg font-code uppercase hover:text-color-1"
-            >
-              {item.title}
-            </a>
+            <>
+              <a
+                key={item.id}
+                href={item.url}
+                onClick={handleClick}
+                className="block text-white text-lg font-code uppercase hover:text-color-1"
+              >
+                {item.title}
+              </a>
+            </>
           ))}
+          <Button className="" href="/resume.pdf" download="Santosh_Resume.pdf">
+            Resume
+            <Download className="h-4 w-4" />
+          </Button>
         </div>
       )}
     </div>

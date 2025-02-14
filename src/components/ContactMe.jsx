@@ -14,7 +14,7 @@ const ContactMe = () => {
         />
 
         <div className="relative">
-          <div className="relative z-1 flex flex-col lg:flex-row items-center h-auto mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
+          <div className="relative z-1 flex flex-col lg:flex-row items-center h-auto mb-5 p-6 sm:p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
             {/* Left Side - Image */}
             <div className="w-full lg:w-1/2">
               <img
@@ -27,7 +27,7 @@ const ContactMe = () => {
             </div>
 
             {/* Right Side - Contact Form */}
-            <div className="relative z-1 w-full lg:w-1/2 p-6 bg-n-8 rounded-2xl shadow-lg">
+            <div className="relative z-1 w-full lg:w-1/2 p-4 sm:p-6 bg-n-8 rounded-2xl shadow-lg mt-6 lg:mt-0">
               <form className="w-full">
                 <input
                   type="text"
@@ -54,23 +54,27 @@ const ContactMe = () => {
                 </button>
 
                 {/* Contact Options Below Form */}
-                <div className="grid gap-4 grid-cols-3 text-center mt-4">
+                <div className="grid gap-4 grid-cols-1 sm:grid-cols-3 text-center mt-4">
                   {/* Call Me */}
                   <a
                     href="tel:+918957924272"
-                    className="flex flex-col items-center p-4 border border-gray-600 rounded-lg hover:bg-gray-800 transition"
+                    className="flex flex-col items-center p-3 sm:p-4 border border-gray-600 rounded-lg hover:bg-gray-800 transition"
                   >
-                    <Phone className="w-8 h-8 text-blue-400" />
-                    <span className="text-white mt-2 text-sm">Call Me</span>
+                    <Phone className="w-6 h-6 sm:w-8 sm:h-8 text-blue-400" />
+                    <span className="text-white mt-2 text-xs sm:text-sm">
+                      Call Me
+                    </span>
                   </a>
 
                   {/* Email Me */}
                   <a
                     href="mailto:kumarsantosh.iict06a@gmail.com"
-                    className="flex flex-col items-center p-4 border border-gray-600 rounded-lg hover:bg-gray-800 transition"
+                    className="flex flex-col items-center p-3 sm:p-4 border border-gray-600 rounded-lg hover:bg-gray-800 transition"
                   >
-                    <Mail className="w-8 h-8 text-red-400" />
-                    <span className="text-white mt-2 text-sm">Email Me</span>
+                    <Mail className="w-6 h-6 sm:w-8 sm:h-8 text-red-400" />
+                    <span className="text-white mt-2 text-xs sm:text-sm">
+                      Email Me
+                    </span>
                   </a>
 
                   {/* WhatsApp Me */}
@@ -78,10 +82,12 @@ const ContactMe = () => {
                     href="https://wa.me/+918957924272"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex flex-col items-center p-4 border border-gray-600 rounded-lg hover:bg-gray-800 transition"
+                    className="flex flex-col items-center p-3 sm:p-4 border border-gray-600 rounded-lg hover:bg-gray-800 transition"
                   >
-                    <MessageCircle className="w-8 h-8 text-green-400" />
-                    <span className="text-white mt-2 text-sm">WhatsApp</span>
+                    <MessageCircle className="w-6 h-6 sm:w-8 sm:h-8 text-green-400" />
+                    <span className="text-white mt-2 text-xs sm:text-sm">
+                      WhatsApp
+                    </span>
                   </a>
                 </div>
               </form>
