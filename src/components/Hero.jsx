@@ -53,9 +53,7 @@ const Hero = () => {
             Passionate about creating intuitive and engaging user experiences.
             Specialize in transforming ideas into beautifully crafted products.
           </p>
-          <Button href="/pricing" white>
-            Let's Talk
-          </Button>
+          <Button white>Let's Talk</Button>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
           <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">
