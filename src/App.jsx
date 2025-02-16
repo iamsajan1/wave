@@ -11,6 +11,7 @@ import Footer from "./components/Footer";
 import Projects from "./components/Projects";
 import TechStack from "./components/TechStack";
 import ContactMe from "./components/ContactMe";
+import ScrollToTop from "./components/ScrollToTop";
 const App = () => {
   useEffect(() => {
     // Canvas for effects
@@ -173,6 +174,7 @@ const App = () => {
         <Footer />
       </div>
       <ButtonGradient />
+      <ScrollToTop />
     </>
   );
 };

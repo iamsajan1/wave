@@ -242,7 +242,7 @@ export const benefits = [
     title: "APS Admission Panel Website",
     text: "A dynamic and user-friendly admission panel built with Next.js, integrating a WordPress API for seamless content management. Features a beautiful UI, smooth navigation, and an optimized experience for students and administrators.",
     backgroundUrl: "/card-1.svg",
-    imageUrl: benefitImage2,
+    imageUrl: "/apsWbsite/Recording 2025-02-16 210947.mp4",
     projectUrl: "https://github.com/iamsajan1/apswebsite-in-nextjs.git",
   },
   {
@@ -250,7 +250,7 @@ export const benefits = [
     title: "Next.js LMS Platform",
     text: "A full-stack Learning Management System where teachers can sell courses and students can purchase them seamlessly. Built with Next.js, ShadCN for UI, AWS for cloud storage, Prisma for database management, and Docker for containerized deployment. Ensures a smooth and scalable learning experience.",
     backgroundUrl: "/card-2.svg",
-    imageUrl: benefitImage2,
+    imageUrl: "/learning-management/Screen Recording 2025-02-16 204841.mp4",
     projectUrl: "https://github.com/iamsajan1/learning-managment-fullStack.git",
   },
 
@@ -259,7 +259,7 @@ export const benefits = [
     title: "Real-Time Chat App",
     text: "A fast and secure real-time messaging app built with React Native and Firebase. Supports instant messaging, push notifications, media sharing, and real-time database updates for a seamless chatting experience. Designed for both iOS and Android with a smooth and responsive UI.",
     backgroundUrl: "/card-3.svg",
-    imageUrl: benefitImage2,
+    imageUrl: "/coming soon.jpg",
     projectUrl: "https://github.com/iamsajan1/chatapp.git",
   },
   {
@@ -267,7 +267,7 @@ export const benefits = [
     title: "APS Admission Panel Mobile App",
     text: "The mobile version of the APS Admission Panel, built with React Native for seamless access to admission-related features on the go.",
     backgroundUrl: "/card-4.svg",
-    imageUrl: benefitImage2,
+    imageUrl: "/coming soon.jpg",
     projectUrl: "https://github.com/iamsajan1/ApsBlogApp.git",
   },
   {
@@ -275,7 +275,7 @@ export const benefits = [
     title: "LMS Mobile App UI",
     text: "A beautifully designed and fully animated LMS app UI in React Native, featuring smooth transitions, custom-designed components, and an engaging user experience.",
     backgroundUrl: "/card-5.svg",
-    imageUrl: benefitImage2,
+    imageUrl: "/coming soon.jpg",
     projectUrl: "https://github.com/iamsajan1/LMS.git",
   },
   {
@@ -283,7 +283,7 @@ export const benefits = [
     title: "Real Estate Property App",
     text: "A stunning and highly interactive real estate app built with React Native. Features smooth animations, a modern UI, property listings, and an intuitive browsing experience.",
     backgroundUrl: "/card-6.svg",
-    imageUrl: benefitImage2,
+    imageUrl: "/coming soon.jpg",
     projectUrl: "https://github.com/iamsajan1/learning-managment-fullStack.git",
   },
   {
@@ -291,7 +291,7 @@ export const benefits = [
     title: "Role-Based Web API",
     text: "A secure and well-structured Web API built with C#, implementing role-based access control. Ensures users have access to resources based on their assigned roles, enhancing security and scalability.",
     backgroundUrl: "/card-6.svg",
-    imageUrl: benefitImage2,
+    imageUrl: "/coming soon.jpg",
     projectUrl: "https://github.com/iamsajan1/pokemon.git",
   },
   {
@@ -299,7 +299,7 @@ export const benefits = [
     title: "Full-Stack Backend Course",
     text: "A comprehensive backend development course covering Prisma, Docker, AWS, Express, and PostgreSQL. Designed to build scalable and efficient backend applications with modern technologies.",
     backgroundUrl: "/card-5.svg",
-    imageUrl: benefitImage2,
+    imageUrl: "/coming soon.jpg",
     projectUrl: "https://github.com/iamsajan1/Full-Backend.git",
   },
   {
@@ -307,7 +307,7 @@ export const benefits = [
     title: "React Native CRM App",
     text: "A powerful CRM app for counselors to manage leads, follow-ups, call and email status, WhatsApp integration, and call history. Provides a seamless workflow for tracking and engaging with clients efficiently.",
     backgroundUrl: "/card-6.svg",
-    imageUrl: benefitImage2,
+    imageUrl: "/coming soon.jpg",
     projectUrl: "https://github.com/iamsajan1/leadManagement-app.git",
   },
   {
@@ -315,7 +315,7 @@ export const benefits = [
     title: "APS Blog App",
     text: "A company blog application fetching real-time articles and updates from their WordPress website using the WordPress API. Ensures seamless content synchronization with an elegant UI.",
     backgroundUrl: "/card-5.svg",
-    imageUrl: benefitImage2,
+    imageUrl: "/coming soon.jpg",
     projectUrl: "https://github.com/iamsajan1/ApsBlogApp.git",
   },
   {
@@ -323,7 +323,7 @@ export const benefits = [
     title: "Society Management App UI",
     text: "A beautifully designed React Native app for managing gated societies. Features include real-time chat, digital gate pass, family member management, visitor tracking, and essential community services.",
     backgroundUrl: "/card-6.svg",
-    imageUrl: benefitImage2,
+    imageUrl: "/public/society/Recording 2025-02-16 205920.mp4",
     projectUrl: "https://github.com/iamsajan1/SocietyMgmt-App.git",
   },
   {
@@ -331,7 +331,7 @@ export const benefits = [
     title: "Multiple Custom Projects & Solutions",
     text: "Developed a variety of web and mobile applications tailored to different business needs, including e-commerce platforms, admin dashboards, financial tools, and enterprise-level solutions using Next.js, React Native, Prisma, Docker, AWS, and more.",
     backgroundUrl: "/card-5.svg",
-    imageUrl: benefitImage2,
+    imageUrl: "/coming soon.jpg",
     projectUrl: "https://github.com/iamsajan1",
   },
 ];
