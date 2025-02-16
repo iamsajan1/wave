@@ -55,7 +55,7 @@ export const navigation = [
   },
   {
     id: "3",
-    title: "Skills @ TeckStack",
+    title: "Skills @ TechStack",
     url: "#TechStack",
   },
 
