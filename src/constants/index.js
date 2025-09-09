@@ -241,7 +241,7 @@ export const benefits = [
   id: "13",
   title: "Trading & Investment Platform",
   text: "Developed a responsive web application using Next.js for a trading client, allowing users to explore crypto shares and different market investment options. Integrated query submission system that directly sends leads to Google Sheets, ensuring smooth client acquisition and management.",
-  backgroundUrl: "/card-7.svg",
+  backgroundUrl: "/card-6.svg",
   imageUrl: "/meraj.jpeg",
   projectUrl: "https://integrationfxteam-htktlav5w-iamsajan1s-projects.vercel.app",
 }
@@ -258,7 +258,7 @@ export const benefits = [
     id: "12",
     title: "Next.js LMS Platform",
     text: "A full-stack Learning Management System where teachers can sell courses and students can purchase them seamlessly. Built with Next.js, ShadCN for UI, AWS for cloud storage, Prisma for database management, and Docker for containerized deployment. Ensures a smooth and scalable learning experience.",
-    backgroundUrl: "/card-2.svg",
+    backgroundUrl: "/card-6.svg",
     imageUrl: "/learning-management/Screen Recording 2025-02-16 204841.mp4",
     projectUrl: "https://github.com/iamsajan1/learning-managment-fullStack.git",
   },
@@ -274,7 +274,7 @@ export const benefits = [
   id: "14",
   title: "Learning Management System (LMS)",
   text: "Designed and developed a full-stack Learning Management System deployed on AWS EC2 with secure frontend and backend. Students can search, purchase, and track courses with progress tracking. Teachers can create and manage courses, set pricing",
-  backgroundUrl: "/card-8.svg",
+  backgroundUrl: "/card-6.svg",
   imageUrl: "/coming soon.jpg",
   projectUrl: "https://github.com/iamsajan1/learning-managment-fullStack",
 }
@@ -283,7 +283,7 @@ export const benefits = [
   id: "15",
   title: "Project Management System",
   text: "Developed a scalable project management platform similar to Trello and Slack, built with Node.js and Prisma, hosted on AWS EC2 and Amplify. Features include task assignment, assignee tracking, progress updates, team collaboration, and real-time notifications to streamline project workflows.",
-  backgroundUrl: "/card-9.svg",
+  backgroundUrl: "/card-6.svg",
   imageUrl: "/coming soon.jpg",
   projectUrl: "https://github.com/iamsajan1/project-management",
 }
@@ -292,7 +292,7 @@ export const benefits = [
   id: "16",
   title: "Real Estate Full-Stack Platform",
   text: "Built a full-stack real estate platform using Next.js, Node.js, Prisma, SQL, Docker, and deployed on AWS EC2. The application allows users to search and filter properties by location, buy or rent listings, and manage rental agreements. Designed for seamless performance with containerized deployment and scalable cloud infrastructure.",
-  backgroundUrl: "/card-10.svg",
+  backgroundUrl: "/card-5.svg",
   imageUrl: "/coming soon.jpg",
   projectUrl: "https://github.com/iamsajan1/real-state-fullStack",
 }
