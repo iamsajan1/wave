@@ -238,20 +238,80 @@ export const pricing = [
 
 export const benefits = [
   {
+  id: "13",
+  title: "Trading & Investment Platform",
+  text: "Developed a responsive web application using Next.js for a trading client, allowing users to explore crypto shares and different market investment options. Integrated query submission system that directly sends leads to Google Sheets, ensuring smooth client acquisition and management.",
+  backgroundUrl: "/card-7.svg",
+  imageUrl: "/meraj.jpeg",
+  projectUrl: "https://integrationfxteam-htktlav5w-iamsajan1s-projects.vercel.app",
+}
+,
+  {
+    id: "1",
+    title: "Social Media Platform",
+    text: "Built a full-featured social media web application with story sharing, posts, likes, comments, and real-time chat. Implemented secure authentication, email notifications using Mailer, and scalable backend with MERN stack, Ingest Mode, and WebSockets for real-time communication.",
+    backgroundUrl: "/card-6.svg",
+    imageUrl: "/image.png",
+    projectUrl: "https://mern-social-media-fullstack-00.onrender.com",
+  },
+  {
+    id: "12",
+    title: "Next.js LMS Platform",
+    text: "A full-stack Learning Management System where teachers can sell courses and students can purchase them seamlessly. Built with Next.js, ShadCN for UI, AWS for cloud storage, Prisma for database management, and Docker for containerized deployment. Ensures a smooth and scalable learning experience.",
+    backgroundUrl: "/card-2.svg",
+    imageUrl: "/learning-management/Screen Recording 2025-02-16 204841.mp4",
+    projectUrl: "https://github.com/iamsajan1/learning-managment-fullStack.git",
+  },
+    {
+    id: "10",
+    title: "Society Management App UI",
+    text: "A beautifully designed React Native app for managing gated societies. Features include real-time chat, digital gate pass, family member management, visitor tracking, and essential community services.",
+    backgroundUrl: "/card-6.svg",
+    imageUrl: "/public/society/Recording 2025-02-16 205920.mp4",
+    projectUrl: "https://github.com/iamsajan1/SocietyMgmt-App.git",
+  },
+  {
+  id: "14",
+  title: "Learning Management System (LMS)",
+  text: "Designed and developed a full-stack Learning Management System deployed on AWS EC2 with secure frontend and backend. Students can search, purchase, and track courses with progress tracking. Teachers can create and manage courses, set pricing",
+  backgroundUrl: "/card-8.svg",
+  imageUrl: "/coming soon.jpg",
+  projectUrl: "https://github.com/iamsajan1/learning-managment-fullStack",
+}
+,
+{
+  id: "15",
+  title: "Project Management System",
+  text: "Developed a scalable project management platform similar to Trello and Slack, built with Node.js and Prisma, hosted on AWS EC2 and Amplify. Features include task assignment, assignee tracking, progress updates, team collaboration, and real-time notifications to streamline project workflows.",
+  backgroundUrl: "/card-9.svg",
+  imageUrl: "/coming soon.jpg",
+  projectUrl: "https://github.com/iamsajan1/project-management",
+}
+,
+{
+  id: "16",
+  title: "Real Estate Full-Stack Platform",
+  text: "Built a full-stack real estate platform using Next.js, Node.js, Prisma, SQL, Docker, and deployed on AWS EC2. The application allows users to search and filter properties by location, buy or rent listings, and manage rental agreements. Designed for seamless performance with containerized deployment and scalable cloud infrastructure.",
+  backgroundUrl: "/card-10.svg",
+  imageUrl: "/coming soon.jpg",
+  projectUrl: "https://github.com/iamsajan1/real-state-fullStack",
+}
+,
+  {
+    id: "5",
+    title: "Real Estate Property App",
+    text: "A stunning and highly interactive real estate app built with React Native. Features smooth animations, a modern UI, property listings, and an intuitive browsing experience.",
+    backgroundUrl: "/card-6.svg",
+    imageUrl: "/coming soon.jpg",
+    projectUrl: "https://github.com/iamsajan1/learning-managment-fullStack.git",
+  },
+  {
     id: "0",
     title: "APS Admission Panel Website",
     text: "A dynamic and user-friendly admission panel built with Next.js, integrating a WordPress API for seamless content management. Features a beautiful UI, smooth navigation, and an optimized experience for students and administrators.",
     backgroundUrl: "/card-1.svg",
     imageUrl: "/apsWbsite/Recording 2025-02-16 210947.mp4",
     projectUrl: "https://github.com/iamsajan1/apswebsite-in-nextjs.git",
-  },
-  {
-    id: "1",
-    title: "Next.js LMS Platform",
-    text: "A full-stack Learning Management System where teachers can sell courses and students can purchase them seamlessly. Built with Next.js, ShadCN for UI, AWS for cloud storage, Prisma for database management, and Docker for containerized deployment. Ensures a smooth and scalable learning experience.",
-    backgroundUrl: "/card-2.svg",
-    imageUrl: "/learning-management/Screen Recording 2025-02-16 204841.mp4",
-    projectUrl: "https://github.com/iamsajan1/learning-managment-fullStack.git",
   },
 
   {
@@ -278,14 +338,7 @@ export const benefits = [
     imageUrl: "/coming soon.jpg",
     projectUrl: "https://github.com/iamsajan1/LMS.git",
   },
-  {
-    id: "5",
-    title: "Real Estate Property App",
-    text: "A stunning and highly interactive real estate app built with React Native. Features smooth animations, a modern UI, property listings, and an intuitive browsing experience.",
-    backgroundUrl: "/card-6.svg",
-    imageUrl: "/coming soon.jpg",
-    projectUrl: "https://github.com/iamsajan1/learning-managment-fullStack.git",
-  },
+  
   {
     id: "6",
     title: "Role-Based Web API",
@@ -318,14 +371,7 @@ export const benefits = [
     imageUrl: "/coming soon.jpg",
     projectUrl: "https://github.com/iamsajan1/ApsBlogApp.git",
   },
-  {
-    id: "10",
-    title: "Society Management App UI",
-    text: "A beautifully designed React Native app for managing gated societies. Features include real-time chat, digital gate pass, family member management, visitor tracking, and essential community services.",
-    backgroundUrl: "/card-6.svg",
-    imageUrl: "/public/society/Recording 2025-02-16 205920.mp4",
-    projectUrl: "https://github.com/iamsajan1/SocietyMgmt-App.git",
-  },
+
   {
     id: "11",
     title: "Multiple Custom Projects & Solutions",
@@ -334,14 +380,6 @@ export const benefits = [
     imageUrl: "/coming soon.jpg",
     projectUrl: "https://github.com/iamsajan1",
   },
-  {
-  id: "12",
-  title: "Social Media Platform",
-  text: "Built a full-featured social media web application with story sharing, posts, likes, comments, and real-time chat. Implemented secure authentication, email notifications using Mailer, and scalable backend with MERN stack, Ingest Mode, and WebSockets for real-time communication.",
-  backgroundUrl: "/card-6.svg",
-  imageUrl: "/image.png",
-  projectUrl: "https://mern-social-media-fullstack-00.onrender.com",
-}
 ];
 
 export const techText =
