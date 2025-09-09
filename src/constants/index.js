@@ -334,6 +334,14 @@ export const benefits = [
     imageUrl: "/coming soon.jpg",
     projectUrl: "https://github.com/iamsajan1",
   },
+  {
+  id: "12",
+  title: "Social Media Platform",
+  text: "Built a full-featured social media web application with story sharing, posts, likes, comments, and real-time chat. Implemented secure authentication, email notifications using Mailer, and scalable backend with MERN stack, Ingest Mode, and WebSockets for real-time communication.",
+  backgroundUrl: "/card-6.svg",
+  imageUrl: "/image.png",
+  projectUrl: "https://mern-social-media-fullstack-00.onrender.com",
+}
 ];
 
 export const techText =
