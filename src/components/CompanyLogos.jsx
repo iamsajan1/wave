@@ -1,5 +1,3 @@
- 
-
 const CompanyLogos = ({ className }) => {
   return (
     <div className={`${className} py-10`}>
@@ -34,6 +32,21 @@ const CompanyLogos = ({ className }) => {
           </div>
           <p className="mt-2 text-sm text-gray-400">APS Matrix</p>
           <p className="text-xs text-gray-500">Web & App Developer (1 Year)</p>
+        </div>
+
+        {/* intigration interprices */}
+        <div className="flex flex-col items-center">
+          <div className="h-20 w-20 p-4 bg-gray-900 rounded-xl shadow-md">
+            <img
+              src="/integration.png"
+              alt="APS Matrix"
+              className="max-w-full h-100 object-contain"
+            />
+          </div>
+          <p className="mt-2 text-sm text-gray-400">Integration Enterprise </p>
+          <p className="text-xs text-gray-500">
+            Full Stack Developer (1.2 Year)
+          </p>
         </div>
       </div>
     </div>
