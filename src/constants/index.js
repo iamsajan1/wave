@@ -238,14 +238,13 @@ export const pricing = [
 
 export const benefits = [
   {
-  id: "13",
-  title: "Trading & Investment Platform",
-  text: "Developed a responsive web application using Next.js for a trading client, allowing users to explore crypto shares and different market investment options. Integrated query submission system that directly sends leads to Google Sheets, ensuring smooth client acquisition and management.",
-  backgroundUrl: "/card-6.svg",
-  imageUrl: "/meraj.jpeg",
-  projectUrl: "https://integrationfxteam-htktlav5w-iamsajan1s-projects.vercel.app",
-}
-,
+    id: "13",
+    title: "Trading & Investment Platform",
+    text: "Developed a responsive web application using Next.js for a trading client, allowing users to explore crypto shares and different market investment options. Integrated query submission system that directly sends leads to Google Sheets, ensuring smooth client acquisition and management.",
+    backgroundUrl: "/card-6.svg",
+    imageUrl: "/meraj.jpeg",
+    projectUrl: "https://meraj-24xk.onrender.com/",
+  },
   {
     id: "1",
     title: "Social Media Platform",
@@ -254,6 +253,15 @@ export const benefits = [
     imageUrl: "/image.png",
     projectUrl: "https://mern-social-media-fullstack-00.onrender.com",
   },
+{
+  id: "145",
+  title: "Resumify",
+  text: "Developed 'Resumify' — an AI-powered resume builder that enhances existing resumes and helps users create professional versions instantly. Integrated multiple customizable templates, AI-based content enhancement, and smart suggestions for better presentation and keyword optimization.",
+  backgroundUrl: "/card-6.svg",
+  imageUrl: "/image.png",
+  projectUrl: "https://resumify-cm3p.onrender.com/",
+}
+
   {
     id: "12",
     title: "Next.js LMS Platform",
@@ -262,7 +270,7 @@ export const benefits = [
     imageUrl: "/learning-management/Screen Recording 2025-02-16 204841.mp4",
     projectUrl: "https://github.com/iamsajan1/learning-managment-fullStack.git",
   },
-    {
+  {
     id: "10",
     title: "Society Management App UI",
     text: "A beautifully designed React Native app for managing gated societies. Features include real-time chat, digital gate pass, family member management, visitor tracking, and essential community services.",
@@ -271,32 +279,29 @@ export const benefits = [
     projectUrl: "https://github.com/iamsajan1/SocietyMgmt-App.git",
   },
   {
-  id: "14",
-  title: "Learning Management System (LMS)",
-  text: "Designed and developed a full-stack Learning Management System deployed on AWS EC2 with secure frontend and backend. Students can search, purchase, and track courses with progress tracking. Teachers can create and manage courses, set pricing",
-  backgroundUrl: "/card-6.svg",
-  imageUrl: "/coming soon.jpg",
-  projectUrl: "https://github.com/iamsajan1/learning-managment-fullStack",
-}
-,
-{
-  id: "15",
-  title: "Project Management System",
-  text: "Developed a scalable project management platform similar to Trello and Slack, built with Node.js and Prisma, hosted on AWS EC2 and Amplify. Features include task assignment, assignee tracking, progress updates, team collaboration, and real-time notifications to streamline project workflows.",
-  backgroundUrl: "/card-6.svg",
-  imageUrl: "/coming soon.jpg",
-  projectUrl: "https://github.com/iamsajan1/project-management",
-}
-,
-{
-  id: "16",
-  title: "Real Estate Full-Stack Platform",
-  text: "Built a full-stack real estate platform using Next.js, Node.js, Prisma, SQL, Docker, and deployed on AWS EC2. The application allows users to search and filter properties by location, buy or rent listings, and manage rental agreements. Designed for seamless performance with containerized deployment and scalable cloud infrastructure.",
-  backgroundUrl: "/card-5.svg",
-  imageUrl: "/coming soon.jpg",
-  projectUrl: "https://github.com/iamsajan1/real-state-fullStack",
-}
-,
+    id: "14",
+    title: "Learning Management System (LMS)",
+    text: "Designed and developed a full-stack Learning Management System deployed on AWS EC2 with secure frontend and backend. Students can search, purchase, and track courses with progress tracking. Teachers can create and manage courses, set pricing",
+    backgroundUrl: "/card-6.svg",
+    imageUrl: "/coming soon.jpg",
+    projectUrl: "https://github.com/iamsajan1/learning-managment-fullStack",
+  },
+  {
+    id: "15",
+    title: "Project Management System",
+    text: "Developed a scalable project management platform similar to Trello and Slack, built with Node.js and Prisma, hosted on AWS EC2 and Amplify. Features include task assignment, assignee tracking, progress updates, team collaboration, and real-time notifications to streamline project workflows.",
+    backgroundUrl: "/card-6.svg",
+    imageUrl: "/coming soon.jpg",
+    projectUrl: "https://github.com/iamsajan1/project-management",
+  },
+  {
+    id: "16",
+    title: "Real Estate Full-Stack Platform",
+    text: "Built a full-stack real estate platform using Next.js, Node.js, Prisma, SQL, Docker, and deployed on AWS EC2. The application allows users to search and filter properties by location, buy or rent listings, and manage rental agreements. Designed for seamless performance with containerized deployment and scalable cloud infrastructure.",
+    backgroundUrl: "/card-5.svg",
+    imageUrl: "/coming soon.jpg",
+    projectUrl: "https://github.com/iamsajan1/real-state-fullStack",
+  },
   {
     id: "5",
     title: "Real Estate Property App",
@@ -338,7 +343,7 @@ export const benefits = [
     imageUrl: "/coming soon.jpg",
     projectUrl: "https://github.com/iamsajan1/LMS.git",
   },
-  
+
   {
     id: "6",
     title: "Role-Based Web API",
