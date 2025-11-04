@@ -253,14 +253,14 @@ export const benefits = [
     imageUrl: "/image.png",
     projectUrl: "https://mern-social-media-fullstack-00.onrender.com",
   },
-{
-  id: "145",
-  title: "Resumify",
-  text: "Developed 'Resumify' — an AI-powered resume builder that enhances existing resumes and helps users create professional versions instantly. Integrated multiple customizable templates, AI-based content enhancement, and smart suggestions for better presentation and keyword optimization.",
-  backgroundUrl: "/card-6.svg",
-  imageUrl: "/image.png",
-  projectUrl: "https://resumify-cm3p.onrender.com/",
-}
+  {
+    id: "145",
+    title: "Resumify",
+    text: "Developed 'Resumify' — an AI-powered resume builder that enhances existing resumes and helps users create professional versions instantly. Integrated multiple customizable templates, AI-based content enhancement, and smart suggestions for better presentation and keyword optimization.",
+    backgroundUrl: "/card-6.svg",
+    imageUrl: "/image.png",
+    projectUrl: "https://resumify-cm3p.onrender.com/",
+  },
 
   {
     id: "12",
